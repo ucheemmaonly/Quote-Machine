@@ -1,16 +1,9 @@
-# React + Vite
+A responsive React quote machine built with Vite, React hooks, native `fetch`, and Tailwind CSS via CDN.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ API
+- Random: `https://dummyjson.com/quotes/random`
+- Collection: `https://dummyjson.com/quotes?limit=9`
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ Design reference
+The supplied reference image was used as the visual inspiration. The implementation borrows its design decisions rather than copying  restrained teal accent, large rounded panels, oversized quotation marks, generous whitespace, dark/light contrast, and a card-based composition.
+<img width="1200" height="900" alt="WhatsApp Image 2026-08-27 at 12 14 50" src="https://github.com/user-attachments/assets/bb6bb4d1-10c9-4f64-8b21-69f1e1ffab28" />
